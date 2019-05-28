@@ -15,7 +15,7 @@ const routes = [
                 isPublic: true
 
             } ).select( 'name', 'species', 'picture_url' ).then( ( results ) => {
-
+                console.log(results)
                 if( !results || results.length === 0 ) {
 
                     reply( {
@@ -246,7 +246,18 @@ const routes = [
 
         }
 
-    }
+    },
+
+    {
+        path: '/kontroller',
+        method: 'GET',
+        handler: ( request, reply ) => {
+                reply( {
+                    response_type: "in_channel",
+                    text: "hello world",
+                } );
+        }
+    },
 
 ];
 

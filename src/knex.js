@@ -3,10 +3,11 @@ export default require( 'knex' )( {
     client: 'mysql',
     connection: {
 
-        host: '192.168.33.10',
+        host: 'localhost',
 
-        user: 'birdbase',
+        user: 'root',
         password: 'password',
+        port: 3333,
 
         database: 'birdbase',
         charset: 'utf8',

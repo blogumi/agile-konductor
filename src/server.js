@@ -4,7 +4,7 @@ import routes from './routes';
 const server = new Hapi.Server();
 
 server.connection( {
-    port: 8080
+    port: 9090
 } );
 
 server.register( require( 'hapi-auth-jwt' ), ( err ) => {
