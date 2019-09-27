@@ -6,10 +6,10 @@ plan:
   name: My Plan
   
  plan-permissions:
-  - users: admin
-    groups: bamboo-admins
-    roles: logged-in
-    permissions: view
+ - users: admin
+   groups: bamboo-admins
+   roles: logged-in
+   permissions: view
 
 stages:
   - Stage 1:
