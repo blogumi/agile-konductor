@@ -5,7 +5,7 @@ plan:
   key: PLAN
   name: My Plan
   
- plan-permissions:
+plan-permissions:
  - users: admin
    groups: bamboo-admins
    roles: logged-in
