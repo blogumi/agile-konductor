@@ -1,7 +1,7 @@
 version: 2
 docker: ubuntu
 plan:
-  project-key: ABC
+  project-key: COD
   key: PLAN
   name: My Plan
 
