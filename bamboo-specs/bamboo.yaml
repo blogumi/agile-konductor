@@ -4,6 +4,12 @@ plan:
   project-key: COD
   key: PLAN
   name: My Plan
+  
+ plan-permissions:
+  - users: admin
+    groups: bamboo-admins
+    roles: logged-in
+    permissions: view
 
 stages:
   - Stage 1:
