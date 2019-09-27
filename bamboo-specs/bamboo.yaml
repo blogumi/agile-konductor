@@ -13,3 +13,10 @@ Job 1:
   tasks:
     - script:
         - echo 'Hello from YAML Specs'
+
+QA:
+  tasks: 
+    - script: 
+      - echo 'Release planet'
+  docker:
+    image: ubuntu
